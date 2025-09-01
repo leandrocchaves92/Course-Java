@@ -20,8 +20,8 @@ public class EquacaoSegundoGrau {
 		
 		delta = b*b -4*a*c;
 		if(delta >=0);
-			x1 = -b -(Math.sqrt(delta))/2*a;
-			x2 = -b +(Math.sqrt(delta))/2*a;
+			x1 = (-b -(Math.sqrt(delta)))/2*a;
+			x2 = (-b +(Math.sqrt(delta)))/2*a;
 			System.out.println("O valor de X1 "+x1);
 			System.out.println("O valor de X2 "+x2);
 		
